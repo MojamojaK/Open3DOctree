@@ -1,0 +1,4 @@
+[submodule "third-party/Open3D"]
+	path = third-party/Open3D
+	url = https://github.com/intel-isl/Open3D.git
+	branch = master

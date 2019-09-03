@@ -35,6 +35,8 @@ endif(WIN32)
 # Open3D
 if (Open3D_FOUND)
     message(STATUS "Found Open3D ${Open3D_VERSION}")
+    message(STATUS "Open3D Libraries ${Open3D_LIBRARIES}")
+    message(STATUS "Open3D Include ${Open3D_INCLUDE_DIRS}")
 
     # link_directories must be before add_executable
     link_directories(${Open3D_LIBRARY_DIRS})
